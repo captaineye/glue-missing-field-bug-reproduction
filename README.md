@@ -1,5 +1,9 @@
 # glue-missing-field-bug-reproduction
 A repo that helps AWS technical support team to reproduce the bug of missing fields in Glue when using the MongoDB connector
+The bug is probably related to:
+ - <https://repost.aws/questions/QUe1pgoK93TgWi0dG5ysaX1Q/aws-glue-missing-fields-after-extraction>
+ - <https://www.tecracer.com/blog/2022/02/working-around-glues-habit-of-dropping-unsuspecting-columns.html>
+ - <https://stackoverflow.com/questions/76118661/missing-columns-in-aws-glue>
 
 The schema I have received in the output of the job is sometimes correct:
 ```
