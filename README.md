@@ -21,7 +21,7 @@ root
 
 ## Steps to reproduce the bug
 1. Clone this repo
-2. Create a Glue job with the `glue_job.py` script
+2. Create a Glue job which runs the `glue_job.py` script
 3. Generate the MongoDB data using the `generate_db.sh` script
 4. Run the Glue job and check the schema in the output
 
